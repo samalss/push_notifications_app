@@ -1,16 +1,40 @@
-# push_notifications_app
+# Push Notifications App
 
-A new Flutter project.
+A Flutter app with Firebase Cloud Messaging (FCM) and local notifications.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Push notifications using Firebase.
+- Local notifications for foreground messages.
+- Displays FCM token on the main screen.
 
-A few resources to get you started if this is your first Flutter project:
+## Setup
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Clone the repository:**
+   ```
+   git clone https://github.com/yourusername/push_notifications_app.git
+   cd push_notifications_app
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. **Install dependencies:**
+   ```
+   flutter pub get
+   ```
+
+3. **Add Firebase:**
+   - Download `google-services.json` from Firebase Console.
+   - Place it in `android/app/`.
+
+4. **Run the app:**
+   - For debug:
+     ```
+     flutter run
+     ```
+   - For release:
+     ```
+     flutter build apk --release
+     ```
+
+## License
+
+This project is licensed under the MIT License.
