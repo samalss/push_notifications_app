@@ -1,2 +1,2 @@
-*.cmake linguist-vendored
-*.cpp linguist-vendored
+# Auto detect text files and perform LF normalization
+* text=auto
