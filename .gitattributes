@@ -1,5 +1,12 @@
+*.dart linguist-language=Dart
+
 *.cpp linguist-vendored
 *.h linguist-vendored
+
 *.cmake linguist-vendored
-*.html linguist-vendoredё
+
+*.html linguist-vendored
+
 tools/* linguist-vendored
+docs/* linguist-vendored
+examples/* linguist-vendored
