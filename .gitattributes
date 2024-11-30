@@ -1,9 +1,2 @@
 *.cmake linguist-vendored
 *.cpp linguist-vendored
-*.h linguist-vendored
-
-*.html linguist-vendored
-
-tools/* linguist-vendored
-docs/* linguist-vendored
-examples/* linguist-vendored
